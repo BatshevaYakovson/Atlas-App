@@ -1,0 +1,72 @@
+main {
+  min-height: 900px;
+  background-color: var(--white);
+  background-image: url(worldmap.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  height: 150px;
+}
+
+a {
+  text-decoration: none;
+  color: #8F4E5D;
+  font-size: larger;
+}
+
+a:hover {
+  color: #f06b6b;
+}
+
+nav a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0%;
+  background: #8F4E5D;
+  transition: 1000ms;
+  margin: 0 auto;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+nav a::before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0%;
+  background: #8F4E5D;
+  transition: 1000ms;
+  margin: 0 auto;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+
+footer {
+  height: 100px;
+  color: #8F4E5D;
+}
+
+
+footer a {
+  color: #8F4E5D;
+}
+
+footer a :hover {
+  color: #f06b6b;
+}

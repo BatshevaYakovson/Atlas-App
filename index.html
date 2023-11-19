@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlas-app</title>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script type="module" src="js/app.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <header class="container-fluid p-2 bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 display-4 link-light">Atlas-app</div>
+
+                <nav id="nav_open" class="col-md-5 d-lg-flex justify-content-between align-items-center p-0">
+                    <ul class="nav ">
+                        <li id="home_link" class="pe-3"><a href="#">Home</a></li>
+                        <li id="israel_link" class="pe-3"><a href="#">Isreal</a></li>
+                        <li id="USA_link" class="pe-3"><a href="#">USA</a></li>
+                        <li id="france_link" class="pe-3"><a href="#">France</a></li>
+                        <li id="UK_link" class="pe-3"><a href="#"> United Kingdom</a></li>
+                        <li id="thailand_link" class="pe-3"><a href="#"> Thailand</a></li>
+                    </ul>
+                </nav>
+                <div class="col-md-4 d-flex">
+                    <input placeholder="search for country..." type="text" id="id_input" class="form-control">
+                    <button id="search_btn" class="btn btn-danger">Search</button>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="strip container-fluid">
+            <div class="container">
+                <div id="id_row" class="row">
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="container-fluid bg-dark">
+        <div class="container d-lg-flex row justify-content-center pt-4 text-center">
+            <div class="all_right col-lg-4"> © Bat Sheva shachar | 2023
+            </div>
+            <div class="col-lg-4 tel ">
+                <i class="bi bi-telephone-fill"> </i> +972-9-951-49-40
+            </div>
+            <div class="col-lg-4 text-light">
+                <a href="https://google.com" target="_blank"> <i class="bi bi-google p-3"></i></a>
+                <a href="https://facebook.com" target="_blank"> <i class="bi bi-facebook p-3"></i></a>
+                <a href="https://youtube.com" target="_blank"><i class="bi bi-youtube p-3"></i></a>
+                <a href="https://il.linkedin.com" target="_blank"> <i class="bi bi-linkedin p-3"></i></a>
+                <a href="https://github.com/BatshevaYakovson/HMO" target="_blank"> <i class="bi bi-github p-3"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+
+</html>
