@@ -1,11 +1,11 @@
 import { fetchAllCountriesData, fetchCountryData, searchCountries } from "./initialFilter.js";
 export const declareEvents = () => {
-    let homeLink = document.querySelector("#home_link");
-    let israelLink = document.querySelector("#israel_link");
-    let usaLink = document.querySelector("#USA_link");
-    let franceLink = document.querySelector("#france_link");
-    let ukLink = document.querySelector("#UK_link");
-    let thailandLink = document.querySelector("#thailand_link");
+    const homeLink = document.querySelector("#home_link");
+    const israelLink = document.querySelector("#israel_link");
+    const usaLink = document.querySelector("#USA_link");
+    const franceLink = document.querySelector("#france_link");
+    const ukLink = document.querySelector("#UK_link");
+    const thailandLink = document.querySelector("#thailand_link");
     const searchInput = document.querySelector("#id_input");
     const searchButton = document.querySelector("#search_btn");
 

@@ -1,4 +1,4 @@
-import { createCountry, updateAllCountriesData, centerSingleCityTab } from "./country.js";
+import { createCountry, updateAllCountriesData } from "./country.js";
 let allCountriesData = [];
 
 const sortCountriesByName = (countries) => {
@@ -12,7 +12,6 @@ export const fetchAllCountriesData = async () => {
     allCountriesData = await resp.json();
     const countriesToDisplay = ["Israel", "United States", "France", "United Kingdom", "Thailand"];
     const initialCountriesData = sortCountriesByName (allCountriesData.filter(country => countriesToDisplay.includes(country.name.common)));
-
     createCountry(initialCountriesData);
     updateAllCountriesData(allCountriesData);
 };
